@@ -14,6 +14,7 @@ deploy:
   app: "frontend"
   env: "Frontend-env"
   bucket_name: "elasticbeanstalk-us-east-1-493457453611"
+  bucket_path: "frontend"
   on:
     branch: master
   access_key_id: "$AWS_ACCESS_KEY"
